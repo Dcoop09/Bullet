@@ -75,7 +75,7 @@ CMakeFiles/sandboxapp.dir/sandbox/src/sandboxapp.c.obj: \
  /home/cooper/PSP\ Homebrewing/BulletPowered/Bpow/src/include/graphics.h \
  /home/cooper/PSP\ Homebrewing/BulletPowered/Bpow/src/include/callbacks.h \
  /home/cooper/PSP\ Homebrewing/BulletPowered/Bpow/src/include/logger.h \
- /home/cooper/PSP\ Homebrewing/BulletPowered/sandbox/src/cmake_config.h \
+ /home/cooper/PSP\ Homebrewing/BulletPowered/./cmake_config.h \
  /home/cooper/PSP\ Homebrewing/BulletPowered/sandbox/src/cube.h \
  /home/cooper/PSP\ Homebrewing/BulletPowered/sandbox/src/camera.h \
  /home/cooper/PSP\ Homebrewing/BulletPowered/sandbox/src/rainbow_plane.h \

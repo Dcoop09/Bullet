@@ -3,6 +3,10 @@
 #include <input.h>
 #include <file.h>
 
+#define cubeTex "colors.data"
+#define texX 64
+#define texY 64
+
 Vertex __attribute__((aligned(16))) vertices[12*3] =
 {
 	{1, 1, 0x8000,-1,-1, 1}, // 0
@@ -63,12 +67,12 @@ void renderCube()
 {
 	if(!texture)
 	{
-		texture = openTexFile("colors.data");
+		texture = openTexFile(cubeTex);
 	}
 	ScePspFVector3 pos = {cubeX, cubeY, -5.5f};
 	ScePspFVector3 rot = {val * 0.79f, val * 0.98f, val * 1.32f};
 	ScePspFVector3 scale = {1, 1, 1};
-	loadTexture(texture, 64, 64, 0, 0);
+	loadTexture(texture, texX, texY, VRAM_FALSE, SHARP_FALSE);
 	renderMesh(pos, rot, scale,sizeof(vertices)/sizeof(vertices[0]), vertices);
 }
 

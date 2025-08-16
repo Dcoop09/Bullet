@@ -1,14 +1,15 @@
 #include <string.h>
 #include <malloc.h>
+#include <cmake_config.h>
 #include "file.h"
 #include "logger.h"
 
 #define FILE_CHAR_LIMIT 20
 
 //FILE CHAR LIMIT + the path size
-char textureFolder[FILE_CHAR_LIMIT + 18] = "assets/textures/";
-char mp3Folder[FILE_CHAR_LIMIT + 13] = "assets/mp3/";
-char assetFolder[FILE_CHAR_LIMIT + 9] = "assets/";
+char textureFolder[FILE_CHAR_LIMIT + sizeof(TEXTURE_FOLDER)] = TEXTURE_FOLDER;
+char mp3Folder[FILE_CHAR_LIMIT + sizeof(AUDIO_FOLDER)] = AUDIO_FOLDER;
+char assetFolder[FILE_CHAR_LIMIT + sizeof(ASSET_FOLDER)] = ASSET_FOLDER;
 
 long getFileSize(FILE* file) 
 {
@@ -37,12 +38,11 @@ void* openFile(const char* targetFile)
     fread(fileContents, sizeof(char), fileSize, file);
     fclose(file);
 
-    strcpy(assetFolder, "assets/");
+    strcpy(assetFolder, ASSET_FOLDER);
 
     return fileContents;
 }
 
-//TODO: texture revap
 void* openTexFile(const char* targetTex) 
 {
     FILE* file = fopen(strcat(textureFolder, targetTex), "r");
@@ -63,7 +63,7 @@ void* openTexFile(const char* targetTex)
     fread(fileContents, sizeof(char), fileSize, file);
     fclose(file);
 
-    strcpy(textureFolder, "assets/textures/");
+    strcpy(textureFolder, TEXTURE_FOLDER);
 
     return fileContents;
 }

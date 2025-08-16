@@ -20,6 +20,7 @@ CMakeFiles/sandboxapp.dir/Bpow/src/include/file.c.obj: \
  /home/cooper/pspdev/psp/include/sys/string.h \
  /home/cooper/pspdev/psp/include/malloc.h \
  /home/cooper/pspdev/psp/include/machine/malloc.h \
+ /home/cooper/PSP\ Homebrewing/BulletPowered/./cmake_config.h \
  /home/cooper/PSP\ Homebrewing/BulletPowered/Bpow/src/include/file.h \
  /home/cooper/pspdev/psp/include/stdio.h \
  /home/cooper/pspdev/lib/gcc/psp/14.1.0/include/stdarg.h \

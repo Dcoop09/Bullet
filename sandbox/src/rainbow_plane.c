@@ -18,7 +18,7 @@ static void render()
 {
 	ScePspFVector3 gridpos = {0.0f, 0.0f, -10.0f};
 	ScePspFVector3 gridrot = {0.0f, 0.0f, -0.0f};
-	loadTexture(NULL, 0, 0, 0, 0);
+	loadTexture(NULL, 0, 0, VRAM_FALSE, SHARP_FALSE);
 	renderMesh(gridpos, gridrot, (ScePspFVector3){1, 1, 1}, sizeof(grid)/sizeof(grid[0]), grid);
 }
 

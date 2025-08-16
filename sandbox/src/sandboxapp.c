@@ -4,7 +4,7 @@
 #include <graphics.h>
 #include <logger.h>
 
-#include "cmake_config.h"
+#include <cmake_config.h>
 
 #include "cube.h"
 #include "camera.h"
@@ -20,10 +20,6 @@ char cube = -1;
 
 void masterProcess(float delta)
 {
-    //cubeUpdate(delta);
-    //cameraUpdate(delta);
-    //planeUpdate(delta);
-    //UIUpdate(delta);
 
 
     if(cube == -1)

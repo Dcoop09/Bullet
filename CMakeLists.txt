@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.28)
 project(sandboxapp VERSION 0.0)
 
-configure_file(sandbox/src/cmake_config.h.in ../sandbox/src/cmake_config.h)
-
 set(CMAKE_C_STANDARD 17)
 
 execute_process (
@@ -18,8 +16,17 @@ set(SOURCE_PATH sandbox/src)
 
 set(ASSETS_PATH sandbox/assets)
 
+set(ASSETS_END_PATH assets/)
+
+set(TEXTURE_END_PATH assets/textures/)
+
+set(AUDIO_END_PATH assets/mp3/)
+
+configure_file(cmake_config.h.in ../cmake_config.h)
+
 include_directories(${INC_PATH})
 include_directories(${PSPSDK}/lib/build.mak)
+include_directories(./)
 
 file(COPY "${ASSETS_PATH}" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}")
 

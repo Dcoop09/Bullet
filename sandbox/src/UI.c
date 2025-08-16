@@ -3,6 +3,11 @@
 
 #include "UI.h"
 
+#define fontSizeX 128
+#define fontSizeY 128
+#define charSizeX 16
+#define charSizeY 16
+
 extern unsigned char font_start[];
 
 Tilemap* font;
@@ -23,11 +28,11 @@ static void render()
 {
 	if(font == NULL)
 	{
-		font = loadFont("font.data", 128, 128, 16, 16);
+		font = loadFont("font.data", fontSizeX, fontSizeY, charSizeX, charSizeY);
 	}
 	
 	ScePspFVector3 gridpos = {-100.0f, 70.0f, -100.0f};
-	loadTexture(NULL, 0, 0, 0, 0);
+	loadTexture(NULL, 0, 0, VRAM_FALSE, SHARP_FALSE);
 	renderUI(gridpos, 45, (ScePspFVector3){1, 1, 1}, sizeof(grid)/sizeof(grid[0]), grid);
 
 	drawText(font, (ScePspFVector3){-10.0, 5.0, -10.0}, 0.0f, 0.5f, "Hello World");

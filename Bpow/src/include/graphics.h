@@ -1,5 +1,11 @@
 #pragma once
 
+#define VRAM_FALSE 0
+#define VRAM_TRUE 1
+
+#define SHARP_FALSE 0
+#define SHARP_TRUE 1
+
 //The camera the player views from
 typedef struct
 {

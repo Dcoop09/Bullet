@@ -1,2 +1,0 @@
-#define VERSION_MAJOR @sandboxapp_VERSION_MAJOR@
-#define VERSION_MINOR @sandboxapp_VERSION_MINOR@
