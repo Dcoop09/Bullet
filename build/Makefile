@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/cooper/PSP Homebrewing/BulletPowered"
+CMAKE_SOURCE_DIR = "/home/cooper/PSP Homebrewing/Bullet"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/cooper/PSP Homebrewing/BulletPowered/build"
+CMAKE_BINARY_DIR = "/home/cooper/PSP Homebrewing/Bullet/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/cooper/PSP Homebrewing/BulletPowered/build/CMakeFiles" "/home/cooper/PSP Homebrewing/BulletPowered/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/cooper/PSP Homebrewing/Bullet/build/CMakeFiles" "/home/cooper/PSP Homebrewing/Bullet/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/cooper/PSP Homebrewing/BulletPowered/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/cooper/PSP Homebrewing/Bullet/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -129,149 +129,149 @@ sandboxapp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/build
 .PHONY : sandboxapp/fast
 
-Bpow/src/include/application.obj: Bpow/src/include/application.c.obj
-.PHONY : Bpow/src/include/application.obj
+Bullet/src/include/application.obj: Bullet/src/include/application.c.obj
+.PHONY : Bullet/src/include/application.obj
 
 # target to build an object file
-Bpow/src/include/application.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bpow/src/include/application.c.obj
-.PHONY : Bpow/src/include/application.c.obj
+Bullet/src/include/application.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/application.c.obj
+.PHONY : Bullet/src/include/application.c.obj
 
-Bpow/src/include/application.i: Bpow/src/include/application.c.i
-.PHONY : Bpow/src/include/application.i
+Bullet/src/include/application.i: Bullet/src/include/application.c.i
+.PHONY : Bullet/src/include/application.i
 
 # target to preprocess a source file
-Bpow/src/include/application.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bpow/src/include/application.c.i
-.PHONY : Bpow/src/include/application.c.i
+Bullet/src/include/application.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/application.c.i
+.PHONY : Bullet/src/include/application.c.i
 
-Bpow/src/include/application.s: Bpow/src/include/application.c.s
-.PHONY : Bpow/src/include/application.s
+Bullet/src/include/application.s: Bullet/src/include/application.c.s
+.PHONY : Bullet/src/include/application.s
 
 # target to generate assembly for a file
-Bpow/src/include/application.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bpow/src/include/application.c.s
-.PHONY : Bpow/src/include/application.c.s
+Bullet/src/include/application.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/application.c.s
+.PHONY : Bullet/src/include/application.c.s
 
-Bpow/src/include/callbacks.obj: Bpow/src/include/callbacks.c.obj
-.PHONY : Bpow/src/include/callbacks.obj
+Bullet/src/include/callbacks.obj: Bullet/src/include/callbacks.c.obj
+.PHONY : Bullet/src/include/callbacks.obj
 
 # target to build an object file
-Bpow/src/include/callbacks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bpow/src/include/callbacks.c.obj
-.PHONY : Bpow/src/include/callbacks.c.obj
+Bullet/src/include/callbacks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/callbacks.c.obj
+.PHONY : Bullet/src/include/callbacks.c.obj
 
-Bpow/src/include/callbacks.i: Bpow/src/include/callbacks.c.i
-.PHONY : Bpow/src/include/callbacks.i
+Bullet/src/include/callbacks.i: Bullet/src/include/callbacks.c.i
+.PHONY : Bullet/src/include/callbacks.i
 
 # target to preprocess a source file
-Bpow/src/include/callbacks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bpow/src/include/callbacks.c.i
-.PHONY : Bpow/src/include/callbacks.c.i
+Bullet/src/include/callbacks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/callbacks.c.i
+.PHONY : Bullet/src/include/callbacks.c.i
 
-Bpow/src/include/callbacks.s: Bpow/src/include/callbacks.c.s
-.PHONY : Bpow/src/include/callbacks.s
+Bullet/src/include/callbacks.s: Bullet/src/include/callbacks.c.s
+.PHONY : Bullet/src/include/callbacks.s
 
 # target to generate assembly for a file
-Bpow/src/include/callbacks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bpow/src/include/callbacks.c.s
-.PHONY : Bpow/src/include/callbacks.c.s
+Bullet/src/include/callbacks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/callbacks.c.s
+.PHONY : Bullet/src/include/callbacks.c.s
 
-Bpow/src/include/file.obj: Bpow/src/include/file.c.obj
-.PHONY : Bpow/src/include/file.obj
+Bullet/src/include/file.obj: Bullet/src/include/file.c.obj
+.PHONY : Bullet/src/include/file.obj
 
 # target to build an object file
-Bpow/src/include/file.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bpow/src/include/file.c.obj
-.PHONY : Bpow/src/include/file.c.obj
+Bullet/src/include/file.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/file.c.obj
+.PHONY : Bullet/src/include/file.c.obj
 
-Bpow/src/include/file.i: Bpow/src/include/file.c.i
-.PHONY : Bpow/src/include/file.i
+Bullet/src/include/file.i: Bullet/src/include/file.c.i
+.PHONY : Bullet/src/include/file.i
 
 # target to preprocess a source file
-Bpow/src/include/file.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bpow/src/include/file.c.i
-.PHONY : Bpow/src/include/file.c.i
+Bullet/src/include/file.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/file.c.i
+.PHONY : Bullet/src/include/file.c.i
 
-Bpow/src/include/file.s: Bpow/src/include/file.c.s
-.PHONY : Bpow/src/include/file.s
+Bullet/src/include/file.s: Bullet/src/include/file.c.s
+.PHONY : Bullet/src/include/file.s
 
 # target to generate assembly for a file
-Bpow/src/include/file.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bpow/src/include/file.c.s
-.PHONY : Bpow/src/include/file.c.s
+Bullet/src/include/file.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/file.c.s
+.PHONY : Bullet/src/include/file.c.s
 
-Bpow/src/include/graphics.obj: Bpow/src/include/graphics.c.obj
-.PHONY : Bpow/src/include/graphics.obj
+Bullet/src/include/graphics.obj: Bullet/src/include/graphics.c.obj
+.PHONY : Bullet/src/include/graphics.obj
 
 # target to build an object file
-Bpow/src/include/graphics.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bpow/src/include/graphics.c.obj
-.PHONY : Bpow/src/include/graphics.c.obj
+Bullet/src/include/graphics.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/graphics.c.obj
+.PHONY : Bullet/src/include/graphics.c.obj
 
-Bpow/src/include/graphics.i: Bpow/src/include/graphics.c.i
-.PHONY : Bpow/src/include/graphics.i
+Bullet/src/include/graphics.i: Bullet/src/include/graphics.c.i
+.PHONY : Bullet/src/include/graphics.i
 
 # target to preprocess a source file
-Bpow/src/include/graphics.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bpow/src/include/graphics.c.i
-.PHONY : Bpow/src/include/graphics.c.i
+Bullet/src/include/graphics.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/graphics.c.i
+.PHONY : Bullet/src/include/graphics.c.i
 
-Bpow/src/include/graphics.s: Bpow/src/include/graphics.c.s
-.PHONY : Bpow/src/include/graphics.s
+Bullet/src/include/graphics.s: Bullet/src/include/graphics.c.s
+.PHONY : Bullet/src/include/graphics.s
 
 # target to generate assembly for a file
-Bpow/src/include/graphics.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bpow/src/include/graphics.c.s
-.PHONY : Bpow/src/include/graphics.c.s
+Bullet/src/include/graphics.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/graphics.c.s
+.PHONY : Bullet/src/include/graphics.c.s
 
-Bpow/src/include/input.obj: Bpow/src/include/input.c.obj
-.PHONY : Bpow/src/include/input.obj
+Bullet/src/include/input.obj: Bullet/src/include/input.c.obj
+.PHONY : Bullet/src/include/input.obj
 
 # target to build an object file
-Bpow/src/include/input.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bpow/src/include/input.c.obj
-.PHONY : Bpow/src/include/input.c.obj
+Bullet/src/include/input.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/input.c.obj
+.PHONY : Bullet/src/include/input.c.obj
 
-Bpow/src/include/input.i: Bpow/src/include/input.c.i
-.PHONY : Bpow/src/include/input.i
+Bullet/src/include/input.i: Bullet/src/include/input.c.i
+.PHONY : Bullet/src/include/input.i
 
 # target to preprocess a source file
-Bpow/src/include/input.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bpow/src/include/input.c.i
-.PHONY : Bpow/src/include/input.c.i
+Bullet/src/include/input.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/input.c.i
+.PHONY : Bullet/src/include/input.c.i
 
-Bpow/src/include/input.s: Bpow/src/include/input.c.s
-.PHONY : Bpow/src/include/input.s
+Bullet/src/include/input.s: Bullet/src/include/input.c.s
+.PHONY : Bullet/src/include/input.s
 
 # target to generate assembly for a file
-Bpow/src/include/input.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bpow/src/include/input.c.s
-.PHONY : Bpow/src/include/input.c.s
+Bullet/src/include/input.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/input.c.s
+.PHONY : Bullet/src/include/input.c.s
 
-Bpow/src/include/logger.obj: Bpow/src/include/logger.c.obj
-.PHONY : Bpow/src/include/logger.obj
+Bullet/src/include/logger.obj: Bullet/src/include/logger.c.obj
+.PHONY : Bullet/src/include/logger.obj
 
 # target to build an object file
-Bpow/src/include/logger.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bpow/src/include/logger.c.obj
-.PHONY : Bpow/src/include/logger.c.obj
+Bullet/src/include/logger.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/logger.c.obj
+.PHONY : Bullet/src/include/logger.c.obj
 
-Bpow/src/include/logger.i: Bpow/src/include/logger.c.i
-.PHONY : Bpow/src/include/logger.i
+Bullet/src/include/logger.i: Bullet/src/include/logger.c.i
+.PHONY : Bullet/src/include/logger.i
 
 # target to preprocess a source file
-Bpow/src/include/logger.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bpow/src/include/logger.c.i
-.PHONY : Bpow/src/include/logger.c.i
+Bullet/src/include/logger.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/logger.c.i
+.PHONY : Bullet/src/include/logger.c.i
 
-Bpow/src/include/logger.s: Bpow/src/include/logger.c.s
-.PHONY : Bpow/src/include/logger.s
+Bullet/src/include/logger.s: Bullet/src/include/logger.c.s
+.PHONY : Bullet/src/include/logger.s
 
 # target to generate assembly for a file
-Bpow/src/include/logger.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bpow/src/include/logger.c.s
-.PHONY : Bpow/src/include/logger.c.s
+Bullet/src/include/logger.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/logger.c.s
+.PHONY : Bullet/src/include/logger.c.s
 
 sandbox/src/UI.obj: sandbox/src/UI.c.obj
 .PHONY : sandbox/src/UI.obj
@@ -402,24 +402,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... sandboxapp"
-	@echo "... Bpow/src/include/application.obj"
-	@echo "... Bpow/src/include/application.i"
-	@echo "... Bpow/src/include/application.s"
-	@echo "... Bpow/src/include/callbacks.obj"
-	@echo "... Bpow/src/include/callbacks.i"
-	@echo "... Bpow/src/include/callbacks.s"
-	@echo "... Bpow/src/include/file.obj"
-	@echo "... Bpow/src/include/file.i"
-	@echo "... Bpow/src/include/file.s"
-	@echo "... Bpow/src/include/graphics.obj"
-	@echo "... Bpow/src/include/graphics.i"
-	@echo "... Bpow/src/include/graphics.s"
-	@echo "... Bpow/src/include/input.obj"
-	@echo "... Bpow/src/include/input.i"
-	@echo "... Bpow/src/include/input.s"
-	@echo "... Bpow/src/include/logger.obj"
-	@echo "... Bpow/src/include/logger.i"
-	@echo "... Bpow/src/include/logger.s"
+	@echo "... Bullet/src/include/application.obj"
+	@echo "... Bullet/src/include/application.i"
+	@echo "... Bullet/src/include/application.s"
+	@echo "... Bullet/src/include/callbacks.obj"
+	@echo "... Bullet/src/include/callbacks.i"
+	@echo "... Bullet/src/include/callbacks.s"
+	@echo "... Bullet/src/include/file.obj"
+	@echo "... Bullet/src/include/file.i"
+	@echo "... Bullet/src/include/file.s"
+	@echo "... Bullet/src/include/graphics.obj"
+	@echo "... Bullet/src/include/graphics.i"
+	@echo "... Bullet/src/include/graphics.s"
+	@echo "... Bullet/src/include/input.obj"
+	@echo "... Bullet/src/include/input.i"
+	@echo "... Bullet/src/include/input.s"
+	@echo "... Bullet/src/include/logger.obj"
+	@echo "... Bullet/src/include/logger.i"
+	@echo "... Bullet/src/include/logger.s"
 	@echo "... sandbox/src/UI.obj"
 	@echo "... sandbox/src/UI.i"
 	@echo "... sandbox/src/UI.s"

@@ -1,5 +1,5 @@
-CMakeFiles/sandboxapp.dir/Bpow/src/include/logger.c.obj: \
- /home/cooper/PSP\ Homebrewing/BulletPowered/Bpow/src/include/logger.c \
+CMakeFiles/sandboxapp.dir/Bullet/src/include/logger.c.obj: \
+ /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/logger.c \
  /home/cooper/pspdev/psp/sdk/include/pspdebug.h \
  /home/cooper/pspdev/psp/sdk/include/psptypes.h \
  /home/cooper/pspdev/lib/gcc/psp/14.1.0/include/stdint.h \
@@ -24,4 +24,4 @@ CMakeFiles/sandboxapp.dir/Bpow/src/include/logger.c.obj: \
  /home/cooper/pspdev/psp/include/machine/_types.h \
  /home/cooper/pspdev/psp/include/sys/lock.h \
  /home/cooper/pspdev/psp/include/sys/stdio.h \
- /home/cooper/PSP\ Homebrewing/BulletPowered/Bpow/src/include/logger.h
+ /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/logger.h

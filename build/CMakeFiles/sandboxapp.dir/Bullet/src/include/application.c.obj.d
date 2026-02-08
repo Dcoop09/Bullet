@@ -1,5 +1,5 @@
-CMakeFiles/sandboxapp.dir/Bpow/src/include/callbacks.c.obj: \
- /home/cooper/PSP\ Homebrewing/BulletPowered/Bpow/src/include/callbacks.c \
+CMakeFiles/sandboxapp.dir/Bullet/src/include/application.c.obj: \
+ /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/application.c \
  /home/cooper/pspdev/psp/sdk/include/pspkernel.h \
  /home/cooper/pspdev/psp/sdk/include/pspuser.h \
  /home/cooper/pspdev/psp/sdk/include/psptypes.h \
@@ -67,4 +67,17 @@ CMakeFiles/sandboxapp.dir/Bpow/src/include/callbacks.c.obj: \
  /home/cooper/pspdev/psp/sdk/include/pspkdebug.h \
  /home/cooper/pspdev/psp/sdk/include/pspintrman_kernel.h \
  /home/cooper/pspdev/psp/sdk/include/pspmodulemgr_kernel.h \
- /home/cooper/pspdev/psp/sdk/include/pspdisplay.h
+ /home/cooper/pspdev/psp/include/malloc.h \
+ /home/cooper/pspdev/psp/include/machine/malloc.h \
+ /home/cooper/pspdev/psp/include/string.h \
+ /home/cooper/pspdev/psp/include/strings.h \
+ /home/cooper/pspdev/psp/include/sys/string.h \
+ /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/application.h \
+ /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/graphics.h \
+ /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/callbacks.h \
+ /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/logger.h \
+ /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/input.h \
+ /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/file.h \
+ /home/cooper/pspdev/psp/include/stdio.h \
+ /home/cooper/pspdev/lib/gcc/psp/14.1.0/include/stdarg.h \
+ /home/cooper/pspdev/psp/include/sys/stdio.h

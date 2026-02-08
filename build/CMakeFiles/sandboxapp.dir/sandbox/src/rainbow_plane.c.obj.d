@@ -1,5 +1,5 @@
 CMakeFiles/sandboxapp.dir/sandbox/src/rainbow_plane.c.obj: \
- /home/cooper/PSP\ Homebrewing/BulletPowered/sandbox/src/rainbow_plane.c \
+ /home/cooper/PSP\ Homebrewing/Bullet/sandbox/src/rainbow_plane.c \
  /home/cooper/pspdev/psp/sdk/include/pspkernel.h \
  /home/cooper/pspdev/psp/sdk/include/pspuser.h \
  /home/cooper/pspdev/psp/sdk/include/psptypes.h \
@@ -67,5 +67,5 @@ CMakeFiles/sandboxapp.dir/sandbox/src/rainbow_plane.c.obj: \
  /home/cooper/pspdev/psp/sdk/include/pspkdebug.h \
  /home/cooper/pspdev/psp/sdk/include/pspintrman_kernel.h \
  /home/cooper/pspdev/psp/sdk/include/pspmodulemgr_kernel.h \
- /home/cooper/PSP\ Homebrewing/BulletPowered/Bpow/src/include/graphics.h \
- /home/cooper/PSP\ Homebrewing/BulletPowered/sandbox/src/rainbow_plane.h
+ /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/graphics.h \
+ /home/cooper/PSP\ Homebrewing/Bullet/sandbox/src/rainbow_plane.h

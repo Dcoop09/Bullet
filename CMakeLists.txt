@@ -10,7 +10,7 @@ execute_process (
 
 set(PSPSDK OUTPUT_VARIABLE)
 
-set(INC_PATH Bpow/src/include)
+set(INC_PATH Bullet/src/include)
 
 set(SOURCE_PATH sandbox/src)
 

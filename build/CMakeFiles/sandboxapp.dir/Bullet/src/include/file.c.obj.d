@@ -1,5 +1,5 @@
-CMakeFiles/sandboxapp.dir/Bpow/src/include/file.c.obj: \
- /home/cooper/PSP\ Homebrewing/BulletPowered/Bpow/src/include/file.c \
+CMakeFiles/sandboxapp.dir/Bullet/src/include/file.c.obj: \
+ /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/file.c \
  /home/cooper/pspdev/psp/include/string.h \
  /home/cooper/pspdev/psp/include/_ansi.h \
  /home/cooper/pspdev/psp/include/newlib.h \
@@ -20,9 +20,9 @@ CMakeFiles/sandboxapp.dir/Bpow/src/include/file.c.obj: \
  /home/cooper/pspdev/psp/include/sys/string.h \
  /home/cooper/pspdev/psp/include/malloc.h \
  /home/cooper/pspdev/psp/include/machine/malloc.h \
- /home/cooper/PSP\ Homebrewing/BulletPowered/./cmake_config.h \
- /home/cooper/PSP\ Homebrewing/BulletPowered/Bpow/src/include/file.h \
+ /home/cooper/PSP\ Homebrewing/Bullet/./cmake_config.h \
+ /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/file.h \
  /home/cooper/pspdev/psp/include/stdio.h \
  /home/cooper/pspdev/lib/gcc/psp/14.1.0/include/stdarg.h \
  /home/cooper/pspdev/psp/include/sys/stdio.h \
- /home/cooper/PSP\ Homebrewing/BulletPowered/Bpow/src/include/logger.h
+ /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/logger.h

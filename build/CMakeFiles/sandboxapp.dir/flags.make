@@ -4,7 +4,7 @@
 # compile C with /home/cooper/pspdev/bin/psp-gcc
 C_DEFINES = -DPSP -D_PSP_FW_VERSION=600 -D__PSP__
 
-C_INCLUDES = -I"/home/cooper/PSP Homebrewing/BulletPowered/Bpow/src/include" -I"/home/cooper/PSP Homebrewing/BulletPowered/OUTPUT_VARIABLE/lib/build.mak" -I"/home/cooper/PSP Homebrewing/BulletPowered/."
+C_INCLUDES = -I"/home/cooper/PSP Homebrewing/Bullet/Bullet/src/include" -I"/home/cooper/PSP Homebrewing/Bullet/OUTPUT_VARIABLE/lib/build.mak" -I"/home/cooper/PSP Homebrewing/Bullet/."
 
 C_FLAGS = -I/home/cooper/pspdev/psp/include -I/home/cooper/pspdev/psp/sdk/include -DPSP
 
