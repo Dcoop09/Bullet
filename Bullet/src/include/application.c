@@ -123,8 +123,6 @@ void runProcess(Application* app)
 
 		ctrlUpdate();
 
-		print((char*)openFile("test.txt"));
-
 		app->processMaster(delta);
 
 		for(unsigned int i = 0; i <= processes.length - 1; i++)

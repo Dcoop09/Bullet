@@ -1,5 +1,5 @@
-CMakeFiles/sandboxapp.dir/sandbox/src/cube.c.obj: \
- /home/cooper/PSP\ Homebrewing/Bullet/sandbox/src/cube.c \
+CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.obj: \
+ /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/savefile.c \
  /home/cooper/pspdev/psp/sdk/include/pspkernel.h \
  /home/cooper/pspdev/psp/sdk/include/pspuser.h \
  /home/cooper/pspdev/psp/sdk/include/psptypes.h \
@@ -67,14 +67,29 @@ CMakeFiles/sandboxapp.dir/sandbox/src/cube.c.obj: \
  /home/cooper/pspdev/psp/sdk/include/pspkdebug.h \
  /home/cooper/pspdev/psp/sdk/include/pspintrman_kernel.h \
  /home/cooper/pspdev/psp/sdk/include/pspmodulemgr_kernel.h \
- /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/graphics.h \
- /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/input.h \
- /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/file.h \
- /home/cooper/pspdev/psp/include/stdio.h \
- /home/cooper/pspdev/lib/gcc/psp/14.1.0/include/stdarg.h \
- /home/cooper/pspdev/psp/include/sys/stdio.h \
- /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/logger.h \
- /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/savefile.h \
+ /home/cooper/pspdev/psp/sdk/include/psputility.h \
+ /home/cooper/pspdev/psp/sdk/include/psputility_msgdialog.h \
+ /home/cooper/pspdev/psp/sdk/include/psputility_netconf.h \
+ /home/cooper/pspdev/psp/sdk/include/psputility_netparam.h \
+ /home/cooper/pspdev/psp/sdk/include/psputility_savedata.h \
+ /home/cooper/pspdev/psp/sdk/include/psputility_gamesharing.h \
+ /home/cooper/pspdev/psp/sdk/include/psputility_htmlviewer.h \
+ /home/cooper/pspdev/psp/sdk/include/psputility_sysparam.h \
+ /home/cooper/pspdev/psp/sdk/include/psputility_osk.h \
+ /home/cooper/pspdev/psp/sdk/include/psputility_netmodules.h \
+ /home/cooper/pspdev/psp/sdk/include/psputility_avmodules.h \
+ /home/cooper/pspdev/psp/sdk/include/psputility_usbmodules.h \
+ /home/cooper/pspdev/psp/sdk/include/psputility_modules.h \
+ /home/cooper/pspdev/psp/sdk/include/pspgu.h \
+ /home/cooper/pspdev/psp/sdk/include/pspge.h \
+ /home/cooper/pspdev/psp/sdk/include/pspdisplay.h \
+ /home/cooper/pspdev/psp/include/string.h \
+ /home/cooper/pspdev/psp/include/strings.h \
+ /home/cooper/pspdev/psp/include/sys/string.h \
  /home/cooper/pspdev/psp/include/stdlib.h \
  /home/cooper/pspdev/psp/include/machine/stdlib.h \
- /home/cooper/pspdev/psp/include/alloca.h
+ /home/cooper/pspdev/psp/include/alloca.h \
+ /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/logger.h \
+ /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/savefile.h \
+ /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/callbacks.h \
+ /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/graphics.h

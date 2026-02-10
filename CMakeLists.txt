@@ -37,6 +37,7 @@ ${INC_PATH}/graphics.c
 ${INC_PATH}/logger.c
 ${INC_PATH}/input.c
 ${INC_PATH}/file.c
+${INC_PATH}/savefile.c
 
 ${SOURCE_PATH}/sandboxapp.c
 ${SOURCE_PATH}/cube.c
@@ -63,7 +64,7 @@ if(PLATFORM_PSP)
         #Name
         TITLE Sandbox App
 
-        #BUILD_PRX
+        BUILD_PRX
     )
     target_link_libraries(${PROJECT_NAME}
         pspgu

@@ -153,10 +153,24 @@ CMakeFiles/sandboxapp.dir/Bullet/src/include/file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sandboxapp.dir/Bullet/src/include/file.c.s"
 	/home/cooper/pspdev/bin/psp-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/cooper/PSP Homebrewing/Bullet/Bullet/src/include/file.c" -o CMakeFiles/sandboxapp.dir/Bullet/src/include/file.c.s
 
+CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.obj: CMakeFiles/sandboxapp.dir/flags.make
+CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.obj: /home/cooper/PSP\ Homebrewing/Bullet/Bullet/src/include/savefile.c
+CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.obj: CMakeFiles/sandboxapp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/cooper/PSP Homebrewing/Bullet/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.obj"
+	/home/cooper/pspdev/bin/psp-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.obj -MF CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.obj.d -o CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.obj -c "/home/cooper/PSP Homebrewing/Bullet/Bullet/src/include/savefile.c"
+
+CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.i"
+	/home/cooper/pspdev/bin/psp-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/cooper/PSP Homebrewing/Bullet/Bullet/src/include/savefile.c" > CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.i
+
+CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.s"
+	/home/cooper/pspdev/bin/psp-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/cooper/PSP Homebrewing/Bullet/Bullet/src/include/savefile.c" -o CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.s
+
 CMakeFiles/sandboxapp.dir/sandbox/src/sandboxapp.c.obj: CMakeFiles/sandboxapp.dir/flags.make
 CMakeFiles/sandboxapp.dir/sandbox/src/sandboxapp.c.obj: /home/cooper/PSP\ Homebrewing/Bullet/sandbox/src/sandboxapp.c
 CMakeFiles/sandboxapp.dir/sandbox/src/sandboxapp.c.obj: CMakeFiles/sandboxapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/cooper/PSP Homebrewing/Bullet/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/sandboxapp.dir/sandbox/src/sandboxapp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/cooper/PSP Homebrewing/Bullet/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/sandboxapp.dir/sandbox/src/sandboxapp.c.obj"
 	/home/cooper/pspdev/bin/psp-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sandboxapp.dir/sandbox/src/sandboxapp.c.obj -MF CMakeFiles/sandboxapp.dir/sandbox/src/sandboxapp.c.obj.d -o CMakeFiles/sandboxapp.dir/sandbox/src/sandboxapp.c.obj -c "/home/cooper/PSP Homebrewing/Bullet/sandbox/src/sandboxapp.c"
 
 CMakeFiles/sandboxapp.dir/sandbox/src/sandboxapp.c.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/sandboxapp.dir/sandbox/src/sandboxapp.c.s: cmake_force
 CMakeFiles/sandboxapp.dir/sandbox/src/cube.c.obj: CMakeFiles/sandboxapp.dir/flags.make
 CMakeFiles/sandboxapp.dir/sandbox/src/cube.c.obj: /home/cooper/PSP\ Homebrewing/Bullet/sandbox/src/cube.c
 CMakeFiles/sandboxapp.dir/sandbox/src/cube.c.obj: CMakeFiles/sandboxapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/cooper/PSP Homebrewing/Bullet/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/sandboxapp.dir/sandbox/src/cube.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/cooper/PSP Homebrewing/Bullet/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/sandboxapp.dir/sandbox/src/cube.c.obj"
 	/home/cooper/pspdev/bin/psp-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sandboxapp.dir/sandbox/src/cube.c.obj -MF CMakeFiles/sandboxapp.dir/sandbox/src/cube.c.obj.d -o CMakeFiles/sandboxapp.dir/sandbox/src/cube.c.obj -c "/home/cooper/PSP Homebrewing/Bullet/sandbox/src/cube.c"
 
 CMakeFiles/sandboxapp.dir/sandbox/src/cube.c.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/sandboxapp.dir/sandbox/src/cube.c.s: cmake_force
 CMakeFiles/sandboxapp.dir/sandbox/src/camera.c.obj: CMakeFiles/sandboxapp.dir/flags.make
 CMakeFiles/sandboxapp.dir/sandbox/src/camera.c.obj: /home/cooper/PSP\ Homebrewing/Bullet/sandbox/src/camera.c
 CMakeFiles/sandboxapp.dir/sandbox/src/camera.c.obj: CMakeFiles/sandboxapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/cooper/PSP Homebrewing/Bullet/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/sandboxapp.dir/sandbox/src/camera.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/cooper/PSP Homebrewing/Bullet/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/sandboxapp.dir/sandbox/src/camera.c.obj"
 	/home/cooper/pspdev/bin/psp-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sandboxapp.dir/sandbox/src/camera.c.obj -MF CMakeFiles/sandboxapp.dir/sandbox/src/camera.c.obj.d -o CMakeFiles/sandboxapp.dir/sandbox/src/camera.c.obj -c "/home/cooper/PSP Homebrewing/Bullet/sandbox/src/camera.c"
 
 CMakeFiles/sandboxapp.dir/sandbox/src/camera.c.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/sandboxapp.dir/sandbox/src/camera.c.s: cmake_force
 CMakeFiles/sandboxapp.dir/sandbox/src/rainbow_plane.c.obj: CMakeFiles/sandboxapp.dir/flags.make
 CMakeFiles/sandboxapp.dir/sandbox/src/rainbow_plane.c.obj: /home/cooper/PSP\ Homebrewing/Bullet/sandbox/src/rainbow_plane.c
 CMakeFiles/sandboxapp.dir/sandbox/src/rainbow_plane.c.obj: CMakeFiles/sandboxapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/cooper/PSP Homebrewing/Bullet/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/sandboxapp.dir/sandbox/src/rainbow_plane.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/cooper/PSP Homebrewing/Bullet/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/sandboxapp.dir/sandbox/src/rainbow_plane.c.obj"
 	/home/cooper/pspdev/bin/psp-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sandboxapp.dir/sandbox/src/rainbow_plane.c.obj -MF CMakeFiles/sandboxapp.dir/sandbox/src/rainbow_plane.c.obj.d -o CMakeFiles/sandboxapp.dir/sandbox/src/rainbow_plane.c.obj -c "/home/cooper/PSP Homebrewing/Bullet/sandbox/src/rainbow_plane.c"
 
 CMakeFiles/sandboxapp.dir/sandbox/src/rainbow_plane.c.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/sandboxapp.dir/sandbox/src/rainbow_plane.c.s: cmake_force
 CMakeFiles/sandboxapp.dir/sandbox/src/UI.c.obj: CMakeFiles/sandboxapp.dir/flags.make
 CMakeFiles/sandboxapp.dir/sandbox/src/UI.c.obj: /home/cooper/PSP\ Homebrewing/Bullet/sandbox/src/UI.c
 CMakeFiles/sandboxapp.dir/sandbox/src/UI.c.obj: CMakeFiles/sandboxapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/cooper/PSP Homebrewing/Bullet/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/sandboxapp.dir/sandbox/src/UI.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/cooper/PSP Homebrewing/Bullet/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/sandboxapp.dir/sandbox/src/UI.c.obj"
 	/home/cooper/pspdev/bin/psp-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sandboxapp.dir/sandbox/src/UI.c.obj -MF CMakeFiles/sandboxapp.dir/sandbox/src/UI.c.obj.d -o CMakeFiles/sandboxapp.dir/sandbox/src/UI.c.obj -c "/home/cooper/PSP Homebrewing/Bullet/sandbox/src/UI.c"
 
 CMakeFiles/sandboxapp.dir/sandbox/src/UI.c.i: cmake_force
@@ -231,6 +245,7 @@ sandboxapp_OBJECTS = \
 "CMakeFiles/sandboxapp.dir/Bullet/src/include/logger.c.obj" \
 "CMakeFiles/sandboxapp.dir/Bullet/src/include/input.c.obj" \
 "CMakeFiles/sandboxapp.dir/Bullet/src/include/file.c.obj" \
+"CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.obj" \
 "CMakeFiles/sandboxapp.dir/sandbox/src/sandboxapp.c.obj" \
 "CMakeFiles/sandboxapp.dir/sandbox/src/cube.c.obj" \
 "CMakeFiles/sandboxapp.dir/sandbox/src/camera.c.obj" \
@@ -246,6 +261,7 @@ sandboxapp: CMakeFiles/sandboxapp.dir/Bullet/src/include/graphics.c.obj
 sandboxapp: CMakeFiles/sandboxapp.dir/Bullet/src/include/logger.c.obj
 sandboxapp: CMakeFiles/sandboxapp.dir/Bullet/src/include/input.c.obj
 sandboxapp: CMakeFiles/sandboxapp.dir/Bullet/src/include/file.c.obj
+sandboxapp: CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.obj
 sandboxapp: CMakeFiles/sandboxapp.dir/sandbox/src/sandboxapp.c.obj
 sandboxapp: CMakeFiles/sandboxapp.dir/sandbox/src/cube.c.obj
 sandboxapp: CMakeFiles/sandboxapp.dir/sandbox/src/camera.c.obj
@@ -253,16 +269,18 @@ sandboxapp: CMakeFiles/sandboxapp.dir/sandbox/src/rainbow_plane.c.obj
 sandboxapp: CMakeFiles/sandboxapp.dir/sandbox/src/UI.c.obj
 sandboxapp: CMakeFiles/sandboxapp.dir/build.make
 sandboxapp: CMakeFiles/sandboxapp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/cooper/PSP Homebrewing/Bullet/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable sandboxapp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/cooper/PSP Homebrewing/Bullet/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking C executable sandboxapp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sandboxapp.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/cmake -E cmake_echo_color --cyan Not\ stripping\ binary,\ build\ type\ is\ .
+	/usr/bin/cmake -E cmake_echo_color --cyan Not\ stripping\ binary\ because\ building\ PRX.
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Calling psp-fixup-imports"
 	/home/cooper/pspdev/bin/psp-fixup-imports /home/cooper/PSP\ Homebrewing/Bullet/build/sandboxapp
-	/usr/bin/cmake -E cmake_echo_color --cyan Not\ building\ PRX
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Calling prxgen"
+	/home/cooper/pspdev/bin/psp-prxgen /home/cooper/PSP\ Homebrewing/Bullet/build/sandboxapp /home/cooper/PSP\ Homebrewing/Bullet/build/sandboxapp.prx
+	/usr/bin/cmake -E cmake_echo_color --cyan Not\ encrypting\ PRX,\ use\ ENC_PRX\ flag\ if\ you\ need\ to.
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Calling mksfoex"
 	/home/cooper/pspdev/bin/mksfoex -d MEMSIZE=1 -s APP_VER= Sandbox PARAM.SFO
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Calling pack-pbp with ELF file"
-	/home/cooper/pspdev/bin/pack-pbp EBOOT.PBP PARAM.SFO ../MenuItem.png NULL ../Background.png ../HighIcon.png ../SND0.AT3 /home/cooper/PSP\ Homebrewing/Bullet/build/sandboxapp NULL
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Calling pack-pbp with PRX file"
+	/home/cooper/pspdev/bin/pack-pbp EBOOT.PBP PARAM.SFO ../MenuItem.png NULL ../Background.png ../HighIcon.png ../SND0.AT3 /home/cooper/PSP\ Homebrewing/Bullet/build/sandboxapp.prx NULL
 	/usr/bin/cmake -E cmake_echo_color --cyan EBOOT.PBP\ file\ created.
 
 # Rule to build all files generated by this target.

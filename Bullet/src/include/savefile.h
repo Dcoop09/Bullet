@@ -10,8 +10,15 @@ typedef struct
     char* info;
     //picture in the menu (Icon0)
     void* iconPicture;
+    int iconPictureSize;
     //In background when focused on file (Pic1)
     void* backgroundPicture;
+    int backgroundPictureSize;
     //animation? (no support(what's a .pmf file?)) would be icon1
     void* data;
+    int dataSize;
 }Savefile;
+
+void saveSavefile(Savefile save);
+
+void openSavefile(Savefile save);

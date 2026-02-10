@@ -2,10 +2,18 @@
 #include <graphics.h>
 #include <input.h>
 #include <file.h>
+#include <logger.h>
+#include <savefile.h>
+#include <stdlib.h>
 
 #define cubeTex "colors.data"
 #define texX 64
 #define texY 64
+
+#define icon "ICON.data"
+#define background "Background.data"
+
+Savefile gamefile;
 
 Vertex __attribute__((aligned(16))) vertices[12*3] =
 {
@@ -63,6 +71,8 @@ float cubeX = 0.0f;
 float cubeY = 0.0f;
 void* texture = NULL;
 
+char ready = 0;
+
 void renderCube() 
 {
 	if(!texture)
@@ -78,6 +88,29 @@ void renderCube()
 
 void cubeUpdate(float delta) 
 {
+	if(ready == 0) 
+	{
+		gamefile.title = "Sandbox";
+		gamefile.info = "A little test game in the bullet engine";
+		gamefile.backgroundPicture = openTexFile(background);
+		gamefile.backgroundPictureSize = getFileBuffer(TEXTUREFILE, background);
+		gamefile.iconPicture = openTexFile(icon);
+		gamefile.iconPictureSize = getFileBuffer(TEXTUREFILE, icon);
+		gamefile.gameSerial = "NPUO78111";
+		gamefile.data = "Super cool important data!";
+		gamefile.dataSize = 0x20;
+		ready = 1;
+	}
+
+	if(rtriggerPressed)
+	{
+		saveSavefile(gamefile);
+	}else if (ltriggerPressed)
+	{
+		openSavefile(gamefile);
+	}
+	
+
     cubeX += getXAnalog() * delta * 10;
 	cubeY -= getYAnalog() * delta * 10;
 

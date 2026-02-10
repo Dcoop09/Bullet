@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sandboxapp.dir/Bullet/src/include/input.c.obj.d"
   "CMakeFiles/sandboxapp.dir/Bullet/src/include/logger.c.obj"
   "CMakeFiles/sandboxapp.dir/Bullet/src/include/logger.c.obj.d"
+  "CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.obj"
+  "CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.obj.d"
   "CMakeFiles/sandboxapp.dir/sandbox/src/UI.c.obj"
   "CMakeFiles/sandboxapp.dir/sandbox/src/UI.c.obj.d"
   "CMakeFiles/sandboxapp.dir/sandbox/src/camera.c.obj"

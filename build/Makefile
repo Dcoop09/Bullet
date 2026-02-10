@@ -273,6 +273,30 @@ Bullet/src/include/logger.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/logger.c.s
 .PHONY : Bullet/src/include/logger.c.s
 
+Bullet/src/include/savefile.obj: Bullet/src/include/savefile.c.obj
+.PHONY : Bullet/src/include/savefile.obj
+
+# target to build an object file
+Bullet/src/include/savefile.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.obj
+.PHONY : Bullet/src/include/savefile.c.obj
+
+Bullet/src/include/savefile.i: Bullet/src/include/savefile.c.i
+.PHONY : Bullet/src/include/savefile.i
+
+# target to preprocess a source file
+Bullet/src/include/savefile.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.i
+.PHONY : Bullet/src/include/savefile.c.i
+
+Bullet/src/include/savefile.s: Bullet/src/include/savefile.c.s
+.PHONY : Bullet/src/include/savefile.s
+
+# target to generate assembly for a file
+Bullet/src/include/savefile.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sandboxapp.dir/build.make CMakeFiles/sandboxapp.dir/Bullet/src/include/savefile.c.s
+.PHONY : Bullet/src/include/savefile.c.s
+
 sandbox/src/UI.obj: sandbox/src/UI.c.obj
 .PHONY : sandbox/src/UI.obj
 
@@ -420,6 +444,9 @@ help:
 	@echo "... Bullet/src/include/logger.obj"
 	@echo "... Bullet/src/include/logger.i"
 	@echo "... Bullet/src/include/logger.s"
+	@echo "... Bullet/src/include/savefile.obj"
+	@echo "... Bullet/src/include/savefile.i"
+	@echo "... Bullet/src/include/savefile.s"
 	@echo "... sandbox/src/UI.obj"
 	@echo "... sandbox/src/UI.i"
 	@echo "... sandbox/src/UI.s"

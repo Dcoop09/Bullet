@@ -19,6 +19,45 @@ long getFileSize(FILE* file)
     return length;
 }
 
+int getFileBuffer(char type, const char* targetFile) 
+{
+    FILE* file;
+    switch (type)
+    {
+        case 0:
+            file = fopen(targetFile, "r");
+            break;
+        case 1:
+            file = fopen(strcat(mp3Folder, targetFile), "r");
+            strcpy(mp3Folder, AUDIO_FOLDER);
+            break;
+        case 2:
+            file = fopen(strcat(assetFolder, targetFile), "r");
+            strcpy(assetFolder, ASSET_FOLDER);
+            break;
+        case 3:
+            file = fopen(strcat(textureFolder, targetFile), "r");
+            strcpy(textureFolder, TEXTURE_FOLDER);
+            break;
+        default:
+            break;
+    }
+    if(!file) 
+    {
+        throwError("failed to locate %s\n", targetFile);
+        return 0;
+    }
+    
+    int buf = getFileSize(file);
+    if(buf < 0)
+    {
+        throwError("failed to get size of %s\n", assetFolder);
+        return 0;
+    }
+    fclose(file);
+    return buf;
+}
+
 void* openFile(const char* targetFile)
 {
     FILE* file = fopen(strcat(assetFolder, targetFile), "r");
